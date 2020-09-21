@@ -9,5 +9,5 @@ grains: ["rice", "pasta"]
 }
 
 def get_the_values(groceries)
-groceries.values.flatten.min
+groceries.values.flatten
 end
